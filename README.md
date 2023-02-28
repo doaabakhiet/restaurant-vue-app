@@ -1,4 +1,5 @@
 # restaurantsystem
+Vue Application using json server api
 
 ## Project setup
 ```
