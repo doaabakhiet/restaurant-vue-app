@@ -1,0 +1,49 @@
+// @import './admin.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+font-family: 'Open Sans', sans-serif;
+}
+.textColor{color: #9c3e5a;}
+.btnColor{background-color: #9c3e5a;color: #E3F1D5;}
+.btnColor:hover{background-color: #862844;color: #E3F1D5;}
+.btnAddItem{background-color: #0c6113;color: #E3F1D5;}
+.btnAddItem:hover{background-color: #074b0d;color: #E3F1D5;}
+.alertColor{background:linear-gradient(260deg, #2a9433 0%, #e283a0 100%);color: white;}
+//table
+
+// sets
+// table style
+
+table 			      { 
+  border-spacing: 1; 
+  border-collapse: collapse; 
+  background:white;
+  border-radius:6px;
+  overflow:hidden;
+  // max-width:800px; 
+  width:100%;
+  margin:0 auto;
+  position:relative;
+  
+  *               { position:relative }
+  
+  td,th           { padding-left:8px}
+
+  thead tr        { 
+    height:60px;
+    background:linear-gradient(260deg, #0c6113 0%, #cf6e8b 100%);
+    font-size:16px;
+    color: #E3F1D5;
+  }
+  
+  tbody tr        { height:48px; border-bottom:1px solid #E3F1D5 ;
+    &:last-child  { border:0; }
+  }
+  
+ 	td,th 					{ text-align:left;
+		&.l 					{ text-align:right }
+		&.c 					{ text-align:center }
+		&.r 					{ text-align:center }
+	}
+}
+

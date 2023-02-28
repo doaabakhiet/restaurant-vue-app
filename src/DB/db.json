@@ -1,0 +1,157 @@
+{
+  "users": [
+    {
+      "name": " asddfggggg",
+      "password": "fdkslk43ggg",
+      "email": "ne@mm.com",
+      "id": 1
+    },
+    {
+      "name": " aaaaaaaaa",
+      "password": "fdkslk43aaaaaa",
+      "email": "ne@mm.com",
+      "id": 2
+    },
+    {
+      "name": "doaabakhiet",
+      "password": "fdkslk43aaa",
+      "email": "doaa@mm.com",
+      "id": 3
+    },
+    {
+      "name": " asd33",
+      "password": "fdkslk43dddddddd",
+      "email": "ne@mm.com",
+      "id": 4
+    },
+    {
+      "name": " asd333",
+      "password": "fdkslk43ddddddd",
+      "email": "ne@mm.com",
+      "id": 5
+    },
+    {
+      "name": " asdd",
+      "password": " asd123asda",
+      "email": "zxcvb@me.com",
+      "id": 6
+    }
+  ],
+  "locations": [
+    {
+      "name": "dddddddddddddddd",
+      "phone": "df66666666666666",
+      "address": "ertyuikoligbhn",
+      "userid": 1,
+      "id": 11
+    },
+    {
+      "name": "aasdfdfdddcd",
+      "phone": "454545544343",
+      "address": "dsfdfdffdfdfdfsdfd",
+      "userid": 1,
+      "id": 12
+    },
+    {
+      "name": "shadid restaaurant",
+      "phone": "03456754766",
+      "address": "sohag elmaragha",
+      "id": 14
+    },
+    {
+      "name": "wessaya restaurant",
+      "phone": "022yy2837288",
+      "address": "sohag elmaragha",
+      "userid": 3,
+      "id": 15
+    },
+    {
+      "name": "tikya restaurant",
+      "phone": "doaa@mm.com",
+      "address": "sohag elmaragha",
+      "userid": 3,
+      "id": 16
+    },
+    {
+      "name": "wessaya restaurant",
+      "phone": "1234567891",
+      "address": "sohag elmaragha",
+      "userid": 6,
+      "id": 17
+    }
+  ],
+  "categories": [
+    {
+      "name": "shadid restaurant",
+      "userid": 3,
+      "id": 1,
+      "locationId": "15"
+    },
+    {
+      "name": "wessaya restaurant",
+      "userid": 3,
+      "locationId": "15",
+      "id": 2
+    },
+    {
+      "name": " dinner",
+      "userid": 3,
+      "locationId": "15",
+      "id": 3
+    },
+    {
+      "name": " snacks",
+      "userid": 3,
+      "locationId": "15",
+      "id": 4
+    }
+  ],
+  "items": [
+    {
+      "name": "meat",
+      "description": "Barbque",
+      "price": 40,
+      "qty": 300,
+      "userid": 3,
+      "catId": 1,
+      "id": 2
+    },
+    {
+      "name": "chicken",
+      "description": "qqqqqqqqqqqqqqqqqqqq",
+      "price": 44,
+      "qty": 3,
+      "userid": 3,
+      "locationId": "15",
+      "id": 3
+    },
+    {
+      "name": "meat barbque",
+      "description": "qqqqqqqqqqqqqqqq",
+      "price": 55,
+      "qty": 44,
+      "userid": 3,
+      "catId": 2,
+      "id": 4
+    },
+    {
+      "name": "mahshi",
+      "description": "aaaaaaaaaaaaa",
+      "price": 22,
+      "qty": 80,
+      "userid": 3,
+      "catId": 1,
+      "id": 5
+    },
+    {
+      "name": "chicken spicy",
+      "description": "hhhhhhhhhhhhhhhhhhhh",
+      "price": "48.00",
+      "qty": 719,
+      "userid": 3,
+      "catId": 3,
+      "locId": "15",
+      "id": 6
+    }
+  ]
+}
